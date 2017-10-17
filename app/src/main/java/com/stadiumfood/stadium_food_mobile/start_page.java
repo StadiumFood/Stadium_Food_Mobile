@@ -12,8 +12,9 @@ public class start_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
 
-        //Intent intent = new Intent(this, login_or_checkin_acc.class);
-//
+        Intent intent = new Intent(this, login_or_checkin_acc.class);
+        startActivity(intent);
+
 
 
     }
